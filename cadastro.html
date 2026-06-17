@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Astral Travel - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container principal com fundo -->
+    <div class="cadastro-container">
+        <!-- Div da imagem de fundo -->
+        <div class="background-image" style="background-image: url('https://static.wikia.nocookie.net/houkai-star-rail/images/9/9b/Trailblaze_Mission_The_Voyage_Continues_2.png/revision/latest/scale-to-width-down/1000?cb=20250725220324');"></div>
+        
+        <!-- Formulário sobreposto -->
+        <div class="form-wrapper">
+            <form action="cadastro.php" method="post">
+                <h1>Cadastro</h1>
+                
+                <div class="inputbox">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                
+                <div class="inputbox">
+                    <input type="password" name="senha" id="senha" required>
+                    <label for="senha">Senha</label>
+                </div>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
